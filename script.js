@@ -1,7 +1,7 @@
 const test = document.getElementById('demo');
 
-function clickRemove() {
-  test.remove();
+function clickChange() {
+  test.style.backgroundColor = "pink";
 }
 
-test.addEventListener('click', clickRemove);
+test.addEventListener('click', clickChange);
