@@ -1,4 +1,7 @@
-const h2 = document.createElement("h2");
-h2.textContent = "This content added by JavaScript";
+const test = document.getElementById('demo');
 
-document.querySelector("body").appendChild(h2);
+function clickRemove() {
+  test.remove();
+}
+
+test.addEventListener('click', clickRemove);
