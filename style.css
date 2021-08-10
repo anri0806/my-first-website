@@ -6,9 +6,31 @@ body {
 h1 {
     font-size: 80px;
     text-align: center;
-    padding: 300px 0;
+    margin-top: 100px;
 }
 
 mark {
     background-color:lavender;
+}
+
+.font {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#center {
+    text-align: center;
+    font-weight: bold;
+}
+
+#left {
+   float: left;
+   text-align: center;
+   margin-left: 150px;
+}
+
+#right {
+    float: right;
+    text-align: center;
+    margin-right: 150px;
 }
